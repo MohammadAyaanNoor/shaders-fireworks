@@ -13,14 +13,14 @@ const scene = new THREE.Scene();
 const textureLoader = new THREE.TextureLoader();
 
 const textures =[
-  textureLoader.load('../static/particles/1.png'),
-  textureLoader.load('../static/particles/2.png'),
-  textureLoader.load('../static/particles/3.png'),
-  textureLoader.load('../static/particles/4.png'),
-  textureLoader.load('../static/particles/5.png'),
-  textureLoader.load('../static/particles/6.png'),
-  textureLoader.load('../static/particles/7.png'),
-  textureLoader.load('../static/particles/8.png'),
+  textureLoader.load('../public/static/particles/1.png'),
+  textureLoader.load('../public/static/particles/2.png'),
+  textureLoader.load('../public/static/particles/3.png'),
+  textureLoader.load('../public/static/particles/4.png'),
+  textureLoader.load('../public/static/particles/5.png'),
+  textureLoader.load('../public/static/particles/6.png'),
+  textureLoader.load('../public/static/particles/7.png'),
+  textureLoader.load('../public/static/particles/8.png'),
 ]
 
 //fireworks
